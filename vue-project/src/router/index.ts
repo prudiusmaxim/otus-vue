@@ -22,6 +22,11 @@ const router = createRouter({
       name: 'task-template', 
       component: () => import('../components/TaskTemplate/TaskTemplate.vue'),
     },
+    {
+      path: '/task-props-event',
+      name: 'task-props-event', 
+      component: () => import('../components/TaskPropsEvent/TaskPropsEvent.vue'),
+    },
   ],
 })
 

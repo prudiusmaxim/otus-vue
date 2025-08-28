@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import TaskTemplate from './components/TaskTemplate/TaskTemplate.vue'
 
 </script>
 
@@ -9,8 +8,8 @@ import TaskTemplate from './components/TaskTemplate/TaskTemplate.vue'
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />    
     <div class="wrapper">
       <nav>
-        <RouterLink to="/task-template">Задача по теме "Шаблоны"</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/task-template">Задача по теме "Шаблоны"</RouterLink>        
+        <RouterLink to="/task-props-event">Компоненты props и события</RouterLink>
       </nav>
     </div>
   </header>
